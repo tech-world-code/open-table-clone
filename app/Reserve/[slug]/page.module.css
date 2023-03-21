@@ -1,0 +1,12 @@
+.restaurant {
+    display: flex;
+    gap: 15px;
+}
+
+.restaurant img {
+    width: 150px;
+}
+
+.terms {
+    width: 40vw;
+}

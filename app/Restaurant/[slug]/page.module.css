@@ -1,0 +1,110 @@
+.menuNav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+
+.menuNav button {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    color: black;
+}
+
+.selected {
+    border-bottom: 2px solid red !important;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 15px;
+    border-bottom: 1px solid black;
+}
+
+.reservation {
+    background-color: whitesmoke;
+    margin: 15px;
+    z-index: 99;
+    position: absolute;
+    width: 300px;
+    min-height: 300px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.reservation select {
+    position: sticky;
+    top: 0;
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black !important;
+    font-size: large;
+}
+
+.reserveContainer {
+    float: right;
+    position: relative;
+    right: 350px;
+}
+
+.restraurantInfo {
+    z-index: 98;
+    position: relative;
+    bottom: 300px;
+    background-color: rgb(223,224,224);
+    border-radius: 10px;
+    width: 80vw;
+    margin: auto;
+    min-height: 100vw;
+}
+
+.imageBg {
+    height: 1000px;
+    overflow-y: hidden;
+    margin: 0;
+}
+
+.imageBg img {
+    width: 100vw;    
+}
+
+.gallery img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.reviews {
+    padding: 8px;
+}
+
+.reviews h1 {
+    border-bottom: 1px solid black;
+}
+
+.review {
+    margin: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.profile {
+    background-color: rebeccapurple;
+    border-radius: 100%;
+    width: 50px;
+    aspect-ratio: 1;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding-top: 10px;
+}
+
+.description {
+    width: 70vw;
+}

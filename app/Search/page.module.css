@@ -1,0 +1,46 @@
+.sideBar {
+    position: relative;
+    bottom: 30vh;
+    margin-left: 5vw;
+}
+
+.sideBar ul {
+    list-style: none;
+}
+
+.sideBar button {
+    margin: 0;
+    background-color: rgb(223,224,224);
+    width: 70px;
+    height: 50px;
+    font-size: large;
+    border: 1px black solid;
+}
+
+.sideBar button:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+}
+
+.sideBar button:nth-child(3) {
+    border-radius: 0 10px 10px 0;
+}
+
+.searchCard {
+    max-width: 700px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 12px;
+    position: relative;
+    left: 500px;
+    color: black !important;
+    text-decoration: none !important;
+  }
+  
+  .searchCard img {
+    max-width: 400px;
+    border-radius: 5px;
+  }
+
+  .standardLink {
+    color: rgb(218,55,67);
+  }
